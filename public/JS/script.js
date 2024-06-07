@@ -69,8 +69,47 @@ const bottle1 = {
     }
     
     
+     
+
       
-      
+//Strings in JavarScript
+//Concatenation
+const firstname = 'Evelyn';
+const lastname  = 'Yalley';
+const middlename = 'Amonoowah'
+firstname + ' ' +  middlename + ' '+lastname ;
+
+//Template literal 
+` ${firstname} ${middlename} ${lastname}`;
+
+
+
+// Strings Methods
+
+let fullName = "evelyn amonoowah yalley"
+
+
+fullName.length
+fullName.toUpperCase()
+fullName.toLowerCase()
+fullName.charAt(8)
+fullName. slice (7,16)
+fullName.split(" ")
+fullName.replace("evelyn", "koku-anu")
+fullName.indexOf('lyn')
+
+//string conversation
+Number ("3.243")
+parseInt ("3.243")
+parseFloat("3.243")
+
+let amount = 18000
+console.log(`GHS${amount}`)
+amount.toString()
+
+
+
+
     
     
     
