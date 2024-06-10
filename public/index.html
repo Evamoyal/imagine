@@ -183,7 +183,47 @@ Number( '2'*'2')
 '2'+'2'
 Number ('ty') +2
 
+//write a fuction that will add a participant Google Classroom
 
+const participants = [];
+function addParticipant(email) {
+   //Check if email was provided
+  if (email === undefined || email === null) {
+    return 'no email provided';
+  }
+  
+  //check if email is valid
+  if (!email.includes('@')) {
+     return 'Invalid email provided';
+  }
+
+    //Add email to participants
+  participants.push(email);
+   return 'participant added';
+ }
+
+  addParticipant('michelle@gmail.com');
+  addParticipant( 'michelle@yahoo.com');
+participants
+  
+
+  //Arrays in JvaerScript
+const users = [  
+{
+Username:'misslyn',
+password: '1234',
+email:'misslyn@yahoo.com'
+},
+  
+{
+
+Username:'evamoyal',
+password: '9094',
+  email:'evamoyal@gmail.com'
+  }   
+  ];
+  
+  
 
 
 
