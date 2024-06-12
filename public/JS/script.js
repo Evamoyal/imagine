@@ -199,7 +199,7 @@ function fullName(user) {
   return{
     ...user,
     fullname:`${user.firstname} ${user. lastname}`
-  }
+  } 
   return ; `${user.firstname} ${user. lastname}`
   }
   
@@ -238,6 +238,38 @@ function fullName(user) {
   }
   isEven(6);
   numbers.filter(isEven);
+  
+
+     //Write a function that will allow a user to reset their password
+const user ={
+  email: 'evelynyalley@yahoo.com',
+  password: '1234'
+}
+
+function resetPassword(email, newPassword) {
+  
+  //check if email and new password was provided
+  if (!email || !newPassword){
+    return "Email or password not provided";  
+  }
+  
+  //check if provided email is correct
+  if ( email === user. email) {
+    //Update password with new one
+    user.password = newPassword;
+    return "Password reset successful";
+  }
+  
+  if (email !== user.email) {
+    return "Invalid email";
+  }
+    
+ }
+
+user;
+resetPassword ('evelynyalley@yahoo.com' );
+
+user;
     
      
     
